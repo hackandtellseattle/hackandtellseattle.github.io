@@ -48,6 +48,7 @@ table {
 
 /* LAYOUT STYLES */
 body {
+  font-weight: 300;
   font-size: 1em;
   line-height: 1.5; 
   background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
@@ -66,7 +67,7 @@ a:hover {
 
 header {
   padding-top: 35px;
-  padding-bottom: 25px;
+  padding-bottom: 5px;
 }
 
 header h1 {
@@ -78,16 +79,28 @@ header h1 {
 }
 
 header h2 {
-  letter-spacing: -1px;
-  font-size: 24px;
-  color: #aaa;
-  font-weight: normal;
-  line-height: 1.3;
+  font-family: 'Helvetica'; font-weight: 900;
+  letter-spacing: 0px;
+  font-size: 80px;
+  color: #303030;
+  line-height: 0.9;
+}
+
+header h3 {
+  font-family: 'Helvetica'; font-weight: 900;
+  letter-spacing: 0px;
+  font-size: 40px;
+  color: #303030;
+  line-height: 0.9;
 }
 
 #container {
   background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
   min-height: 595px;
+}
+
+#main_content {
+  padding-top: 15px;
 }
 
 .inner {
@@ -246,10 +259,11 @@ h1 {
 } 
 
 h2 {
-  font-size: 22px;
-  font-weight: bold;
+  font-family: 'Helvetica'; font-weight: 900;
+  letter-spacing: 0px;
+  font-size: 40px;
   color: #303030;
-  margin-bottom: 8px;
+  line-height: 0.9;
 } 
 
 h3 {
@@ -288,6 +302,10 @@ p a {
   font-weight: 600;
 }
 
+header a {
+  font-weight: 600;
+}
+
 blockquote {
   font-size: 1.6em;
   border-left: 10px solid #e9e9e9;
@@ -313,7 +331,7 @@ footer {
   background: transparent url('../images/hr.png') 0 0 no-repeat;
   margin-top: 40px;
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   font-size: 13px;
   color: #999;
 }
